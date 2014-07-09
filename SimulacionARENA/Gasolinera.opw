@@ -1,0 +1,32 @@
+[RESOURCES]
+SnackStore o Echar Gasolina_R
+Rellenar el tanque_R
+Despacho_R
+Cajero_R
+[VARIABLES]
+MinRellenar
+DesviacionInspect
+MinDespacho
+MaxEntrada
+IndiceEntrada
+MaxCajero
+ProbCondicion
+IndiceCajero
+DesviacionEntrada
+MediaDespacho
+DesviacionCajero
+MinInspect
+MediaRellenar
+MinEntrada
+MaxDespacho
+MaxRellenar
+MediaInspect
+DesviacionDespacho
+MinCajero
+DesviacionRellenar
+MediaCajero
+IndiceDespacho
+MediaEntrada
+IndiceRellenar
+MaxInspect
+IndiceInspect

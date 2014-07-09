@@ -1,0 +1,17 @@
+Estacion de gasolina
+-Echar gasolina
+-Car wash
+-Snack Store : Despacho y Cobro
+-Probalidad de que vaya al candystore (10%)
+
+Test: 5 dias y 8 Hrs
+
+Snack Store:
+-Duracion del Despacho Uniforme (2,5) min
+-Capacidad del Despacho : 1
+-Duracion del Cajero Uniforme (1,3) min
+-Capacidad de cajeros : 1
+
+Rellenar Tanque:
+-Capacidad : 2
+-Duracion de llenado de tanque Uniforme (5,10) min

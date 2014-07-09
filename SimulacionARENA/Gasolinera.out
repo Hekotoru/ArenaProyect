@@ -1,0 +1,118 @@
+
+----------------------------------------------------------------------
+Entity: 2
+A runtime error was detected at time 0.0 at the following block:
+
+ *    1 49$             CREATE,2:
+                            ExpresionEntrada(IndiceEntrada):
+                            MARK(InstanteLlegada):
+                            NEXT(10$);
+
+Invalid parameters for probability distribution.
+
+Possible causes:
+ Uniform, Triangular: Parameters out of order.
+ Normal: StdDev not positive real.
+ Poisson: Mean not positive real.
+ Weibull: Beta not positive real; Alpha not positive real.
+ LogNormal: LogMean not positive real; LogStdDev not positive real.
+ Gamma: Beta not positive real; Alpha not positive real.
+ Exponential: Mean not positive real.
+ k-Erlang: ExpMean not positive real; k not positive integer.
+ Beta: Alpha1 not positive real; Alpha2 not positive real.
+ Johnson: Lamda not positive real.
+ Discrete, Continuous: Non-cumulative probabilities or missing value.
+
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+0.0 Hours>
+                                      ARENA Simulation Results
+                             rafelito266@hotmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 5
+
+Project: Unnamed Project                                             Run execution date : 7/ 9/2014
+Analyst: rafelito266@hotmail.com                                     Model revision date: 7/ 9/2014
+
+Replication ended at time      : 0.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+SalidaA_Ta                                      --         --         --         --          0
+SalidaB_Ta                                      --         --         --         --          0
+Cajero_R_Q Queue Time                           --         --         --         --          0
+SnackStore o Echar Gasolina_R_Q Queue Time      --         --         --         --          0
+Despacho_R_Q Queue Time                         --         --         --         --          0
+Rellenar el tanque_R_Q Queue Time               --         --         --         --          0
+Despacho_R_Q.WaitingTime                        --         --         --         --          0
+Cajero_R_Q.WaitingTime                          --         --         --         --          0
+Rellenar el tanque_R_Q.WaitingTime              --         --         --         --          0
+SnackStore o Echar Gasolina_R_Q.WaitingTim      --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Despacho_R Busy                             .00000     (Insuf)    .00000     .00000     .00000    
+Cajero_R Busy                               .00000     (Insuf)    .00000     .00000     .00000    
+# in Rellenar el tanque_R_Q                 .00000     (Insuf)    .00000     .00000     .00000    
+Despacho_R Available                        .00000     (Insuf)    1.0000     1.0000     1.0000    
+# in Cajero_R_Q                             .00000     (Insuf)    .00000     .00000     .00000    
+SnackStore o Echar Gasolina_R Available     .00000     (Insuf)    1.0000     1.0000     1.0000    
+Cajero_R Available                          .00000     (Insuf)    1.0000     1.0000     1.0000    
+Rellenar el tanque_R Available              .00000     (Insuf)    2.0000     2.0000     2.0000    
+# in Despacho_R_Q                           .00000     (Insuf)    .00000     .00000     .00000    
+Rellenar el tanque_R Busy                   .00000     (Insuf)    .00000     .00000     .00000    
+SnackStore o Echar Gasolina_R Busy          .00000     (Insuf)    .00000     .00000     .00000    
+# in SnackStore o Echar Gasolina_R_Q        .00000     (Insuf)    .00000     .00000     .00000    
+SnackStore o Echar Gasolina_R.NumberBusy    .00000     (Insuf)    .00000     .00000     .00000    
+SnackStore o Echar Gasolina_R.NumberSchedu  .00000     (Insuf)    1.0000     1.0000     1.0000    
+SnackStore o Echar Gasolina_R.Utilization   .00000     (Insuf)    .00000     .00000     .00000    
+Rellenar el tanque_R.NumberBusy             .00000     (Insuf)    .00000     .00000     .00000    
+Rellenar el tanque_R.NumberScheduled        .00000     (Insuf)    2.0000     2.0000     2.0000    
+Rellenar el tanque_R.Utilization            .00000     (Insuf)    .00000     .00000     .00000    
+Despacho_R.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
+Despacho_R.NumberScheduled                  .00000     (Insuf)    1.0000     1.0000     1.0000    
+Despacho_R.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+Cajero_R.NumberBusy                         .00000     (Insuf)    .00000     .00000     .00000    
+Cajero_R.NumberScheduled                    .00000     (Insuf)    1.0000     1.0000     1.0000    
+Cajero_R.Utilization                        .00000     (Insuf)    .00000     .00000     .00000    
+Despacho_R_Q.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+Cajero_R_Q.NumberInQueue                    .00000     (Insuf)    .00000     .00000     .00000    
+Rellenar el tanque_R_Q.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+SnackStore o Echar Gasolina_R_Q.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+SnackStore o Echar Gasolina_C_Pass                0  Infinite
+SnackStore o Echar Gasolina_C_Fail                0  Infinite
+Rellenar el tanque_C                              0  Infinite
+Despacho_C                                        0  Infinite
+Cajero_C                                          0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+SnackStore o Echar Gasolina_R.NumberSeized  .00000    
+SnackStore o Echar Gasolina_R.ScheduledUti  .00000    
+Rellenar el tanque_R.NumberSeized           .00000    
+Rellenar el tanque_R.ScheduledUtilization   .00000    
+Despacho_R.NumberSeized                     .00000    
+Despacho_R.ScheduledUtilization             .00000    
+Cajero_R.NumberSeized                       .00000    
+Cajero_R.ScheduledUtilization               .00000    
+System.NumberOut                            .00000    
+
