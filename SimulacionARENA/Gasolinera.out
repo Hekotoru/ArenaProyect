@@ -1,13 +1,13 @@
 
                                       ARENA Simulation Results
-                                      MIRIAN - License: STUDENT
+                             rafelito266@hotmail.com - License: STUDENT
 
                                   Summary for Replication 1 of 1
 
 Project: Unnamed Project                                             Run execution date : 7/ 9/2014
 Analyst: rafelito266@hotmail.com                                     Model revision date: 7/ 9/2014
 
-Replication ended at time      : 480.0 Hours 
+Replication ended at time      : 300.0 Hours 
 Base Time Units: Hours
 
                                            TALLY VARIABLES
@@ -15,77 +15,86 @@ Base Time Units: Hours
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-SalidaA_Ta                                  12.390     (Insuf)    2.4761     25.032        283    
-SalidaB_Ta                                  17.421     (Insuf)    4.3973     31.993         28    
-Cajero_R_Q Queue Time                       .14817     (Insuf)    .00000     2.0494         28    
-SnackStore o Echar Gasolina_R_Q Queue Time  9.0655     (Insuf)    .00000     22.152        313    
-Despacho_R_Q Queue Time                     .27006     (Insuf)    .00000     4.0532         28    
-Rellenar el tanque_R_Q Queue Time           .01591     (Insuf)    .00000     .62825        284    
-Despacho_R_Q.WaitingTime                    .27006     (Insuf)    .00000     4.0532         28    
-Cajero_R_Q.WaitingTime                      .14817     (Insuf)    .00000     2.0494         28    
-Rellenar el tanque_R_Q.WaitingTime          .01591     (Insuf)    .00000     .62825        284    
-SnackStore o Echar Gasolina_R_Q.WaitingTim  9.0655     (Insuf)    .00000     22.152        313    
+SalidaA_Ta                                  60.304     (Insuf)    2.7770     117.54        133    
+SalidaB_Ta                                  72.200     (Insuf)    20.759     101.15         14    
+Cajero_R_Q Queue Time                       .07957     (Insuf)    .00000     .68052         15    
+SnackStore o Echar Gasolina_R_Q Queue Time  58.181     (Insuf)    .00000     114.52        149    
+Despacho_R_Q Queue Time                     .02589     (Insuf)    .00000     .38829         15    
+Rellenar el tanque_R_Q Queue Time           .00000     (Insuf)    .00000     .00000        133    
+Despacho_R_Q.WaitingTime                    .02589     (Insuf)    .00000     .38829         15    
+Cajero_R_Q.WaitingTime                      .07957     (Insuf)    .00000     .68052         15    
+Rellenar el tanque_R_Q.WaitingTime          .00000     (Insuf)    .00000     .00000        133    
+SnackStore o Echar Gasolina_R_Q.WaitingTim  58.181     (Insuf)    .00000     114.52        149    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Despacho_R Busy                             .14318     (Insuf)    .00000     1.0000     .00000    
-Cajero_R Busy                               .15448     (Insuf)    .00000     1.0000     .00000    
-# in Rellenar el tanque_R_Q                 .00942     (Insuf)    .00000     1.0000     .00000    
+Despacho_R Busy                             .11631     (Insuf)    .00000     1.0000     .00000    
+Cajero_R Busy                               .09909     (Insuf)    .00000     1.0000     1.0000    
+# in Rellenar el tanque_R_Q                 .00000     (Insuf)    .00000     .00000     .00000    
 Despacho_R Available                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
-# in Cajero_R_Q                             .00864     (Insuf)    .00000     1.0000     .00000    
+# in Cajero_R_Q                             .00398     (Insuf)    .00000     1.0000     .00000    
 SnackStore o Echar Gasolina_R Available     1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Cajero_R Available                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
 Rellenar el tanque_R Available              2.0000     (Insuf)    2.0000     2.0000     2.0000    
-# in Despacho_R_Q                           .01575     (Insuf)    .00000     2.0000     .00000    
-Rellenar el tanque_R Busy                   1.1895     .07891     .00000     2.0000     1.0000    
-SnackStore o Echar Gasolina_R Busy          .97884     (Corr)     .00000     1.0000     1.0000    
-# in SnackStore o Echar Gasolina_R_Q        6.2793     (Corr)     .00000     20.000     19.000    
-SnackStore o Echar Gasolina_R.NumberBusy    .97884     (Corr)     .00000     1.0000     1.0000    
+# in Despacho_R_Q                           .00129     (Insuf)    .00000     1.0000     .00000    
+Rellenar el tanque_R Busy                   .67801     (Insuf)    .00000     2.0000     .00000    
+SnackStore o Echar Gasolina_R Busy          1.0000     (Insuf)    .00000     1.0000     1.0000    
+# in SnackStore o Echar Gasolina_R_Q        48.026     (Insuf)    .00000     101.00     101.00    
+SnackStore o Echar Gasolina_R.NumberBusy    1.0000     (Insuf)    .00000     1.0000     1.0000    
 SnackStore o Echar Gasolina_R.NumberSchedu  1.0000     (Insuf)    1.0000     1.0000     1.0000    
-SnackStore o Echar Gasolina_R.Utilization   .97884     (Corr)     .00000     1.0000     1.0000    
-Rellenar el tanque_R.NumberBusy             1.1895     .07891     .00000     2.0000     1.0000    
+SnackStore o Echar Gasolina_R.Utilization   1.0000     (Insuf)    .00000     1.0000     1.0000    
+Rellenar el tanque_R.NumberBusy             .67801     (Insuf)    .00000     2.0000     .00000    
 Rellenar el tanque_R.NumberScheduled        2.0000     (Insuf)    2.0000     2.0000     2.0000    
-Rellenar el tanque_R.Utilization            .59479     .03946     .00000     1.0000     .50000    
-Despacho_R.NumberBusy                       .14318     (Insuf)    .00000     1.0000     .00000    
+Rellenar el tanque_R.Utilization            .33900     (Insuf)    .00000     1.0000     .00000    
+Despacho_R.NumberBusy                       .11631     (Insuf)    .00000     1.0000     .00000    
 Despacho_R.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Despacho_R.Utilization                      .14318     (Insuf)    .00000     1.0000     .00000    
-Cajero_R.NumberBusy                         .15448     (Insuf)    .00000     1.0000     .00000    
+Despacho_R.Utilization                      .11631     (Insuf)    .00000     1.0000     .00000    
+Cajero_R.NumberBusy                         .09909     (Insuf)    .00000     1.0000     1.0000    
 Cajero_R.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Cajero_R.Utilization                        .15448     (Insuf)    .00000     1.0000     .00000    
-Despacho_R_Q.NumberInQueue                  .01575     (Insuf)    .00000     2.0000     .00000    
-Cajero_R_Q.NumberInQueue                    .00864     (Insuf)    .00000     1.0000     .00000    
-Rellenar el tanque_R_Q.NumberInQueue        .00942     (Insuf)    .00000     1.0000     .00000    
-SnackStore o Echar Gasolina_R_Q.NumberInQu  6.2793     (Corr)     .00000     20.000     19.000    
+Cajero_R.Utilization                        .09909     (Insuf)    .00000     1.0000     1.0000    
+Despacho_R_Q.NumberInQueue                  .00129     (Insuf)    .00000     1.0000     .00000    
+Cajero_R_Q.NumberInQueue                    .00398     (Insuf)    .00000     1.0000     .00000    
+Rellenar el tanque_R_Q.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+SnackStore o Echar Gasolina_R_Q.NumberInQu  48.026     (Insuf)    .00000     101.00     101.00    
 
                                              COUNTERS
 
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-SnackStore o Echar Gasolina_C_Pass              284  Infinite
-SnackStore o Echar Gasolina_C_Fail               28  Infinite
-Rellenar el tanque_C                            283  Infinite
-Despacho_C                                       28  Infinite
-Cajero_C                                         28  Infinite
+SnackStore o Echar Gasolina_C_Pass              133  Infinite
+SnackStore o Echar Gasolina_C_Fail               15  Infinite
+Entrada al sistema_C                            250  Infinite
+Rellenar el tanque_C                            133  Infinite
+Despacho_C                                       15  Infinite
+Cajero_C                                         14  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-SnackStore o Echar Gasolina_R.NumberSeized  313.00    
-SnackStore o Echar Gasolina_R.ScheduledUti  .97884    
-Rellenar el tanque_R.NumberSeized           284.00    
-Rellenar el tanque_R.ScheduledUtilization   .59479    
-Despacho_R.NumberSeized                     28.000    
-Despacho_R.ScheduledUtilization             .14318    
-Cajero_R.NumberSeized                       28.000    
-Cajero_R.ScheduledUtilization               .15448    
-System.NumberOut                            311.00    
+Tiempo medio de salida de clientes que rel  60.304    
+Tiempo medio que espera los clientes para   .00129    
+Cantidad de persona que pasaron por el Des  15.000    
+Tiempo medio de clientes salieron de la ti  72.200    
+Cantidad de clientes que fue a la tienda    15.000    
+Cantidad de Clientes que entran al sistema  250.00    
+Tiempo medio que espera los clientes para   .00000    
+Cantidad de clientes que fue a rellenar el  133.00    
+SnackStore o Echar Gasolina_R.NumberSeized  149.00    
+SnackStore o Echar Gasolina_R.ScheduledUti  1.0000    
+Rellenar el tanque_R.NumberSeized           133.00    
+Rellenar el tanque_R.ScheduledUtilization   .33900    
+Despacho_R.NumberSeized                     15.000    
+Despacho_R.ScheduledUtilization             .11631    
+Cajero_R.NumberSeized                       15.000    
+Cajero_R.ScheduledUtilization               .09909    
+System.NumberOut                            147.00    
 
 
-Simulation run time: 0.03 minutes.
+Simulation run time: 0.35 minutes.
 Simulation run complete.

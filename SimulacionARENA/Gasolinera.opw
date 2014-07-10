@@ -9,15 +9,19 @@ DesviacionInspect
 MinDespacho
 MaxEntrada
 IndiceEntrada
+IndiceCambio
 MaxCajero
 ProbCondicion
+MaxCambiar
 IndiceCajero
 DesviacionEntrada
+DesviacionCambiar
 MediaDespacho
 DesviacionCajero
 MinInspect
 MediaRellenar
 MinEntrada
+MinCambiar
 MaxDespacho
 MaxRellenar
 MediaInspect
@@ -30,3 +34,4 @@ MediaEntrada
 IndiceRellenar
 MaxInspect
 IndiceInspect
+MediaCambiar
